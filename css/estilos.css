@@ -1357,7 +1357,7 @@ img.btn-medios {
   font-size: 16px;
   font-weight: 400;
   padding: 10px 15px;
-  width: 210px;
+  width: 100%;
   line-height: 18px;
   text-align: center;
 }
@@ -1383,7 +1383,7 @@ div#collapseCompartir span.compartir-rs img {
   font-size: 16px;
   font-weight: 400;
   padding: 10px 15px;
-  width: 210px;
+  width: 100%;
   line-height: 18px;
   text-align: center;
   height: 60px;
@@ -1401,7 +1401,7 @@ div#collapseCompartir span.compartir-rs img {
   font-size: 16px;
   font-weight: 400;
   padding: 10px 15px;
-  width: 210px;
+  width: 100%;
   line-height: 18px;
   text-align: center;
 }
