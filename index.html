@@ -539,7 +539,7 @@
                    <article> <h4 class="titulo-registro text-center">Registro de aspirantes</h4>
                     <p class="fecha-registro">del 12 al 23 de agosto</p></article>
                     <div class="my-3 text-center"> <!--   Regístrate aquí -->
-                        <a id="registro" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/preregistro/estatus" target="_blank" class="btnf btn-flip" data-back="Próximamente" data-front="Próximamente">
+                        <a id="registro" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/preregistro/estatus" target="_blank" class="btnf btn-flip" data-back="Regístrate aquí" data-front="Regístrate aquí">
                             <span class="line-1"></span>
                             <span class="line-2"></span>
                             <span class="line-3"></span>
@@ -548,7 +548,7 @@
                         
                     </div>                
                     
-                    <div class="my-3 text-md-center d-none">
+                    <div class="my-3 text-md-center">
                         <a id="estatus-registro" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" class="btnf btn-flip" data-back="Consultar" data-front="Estatus de registro">
                             <span class='line-1'></span>
                             <span class='line-2'></span>
@@ -708,10 +708,10 @@
                                
                                 <p class="text-proceso">del 9 al 21 de agosto</p>
                                             <p class="col text-center">
-                                                <a  class="btn btn-homeconv btn-off" href="#">Consulta tus resultados</a>
+                                                <a  class="btn btn-homeconv" target="_blank" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/">Consulta tus resultados</a>
                                             </p>
                                             <p class="col text-center">
-                                                <a  class="btn btn-homeconv btn-off" href="#">Realiza tu inscripción</a>
+                                                <a  class="btn btn-homeconv" target="_blank" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/">Realiza tu inscripción</a>
                                             </p>
                             
 <!-- collapse -->
@@ -740,7 +740,7 @@
                         </div>
                     </div>
                     <div class="row align-items-center justify-content-center my-4" >
-                        <div class="col-11 mt-4">                               
+                        <div class="col-11 mt-1">                               
                             <a data-bs-toggle="modal" data-bs-target="#guiab"  role="button" ><img src="img/btn_guia_3.svg"  alt="btn" class="btn-scale"></a>
                         </div>
                     </div> 
@@ -1022,7 +1022,7 @@
                             <p id="compartir" class="mes"><img src="img/icono-compartir-titulo.png" alt="compartir1"> Compartir</p>
                             <hr class="line-compartir">
                             <div id="collapseCompartir">
-                                <div class="row ">
+                                <div class="row justify-content-center mx-0">
                                     <div class="col-12 col-md-4">
                                         <div class="text-date">14 de agosto</div>
                                         <div class=" btn-media"><img src="img/icono-guia.png" alt="guia de registro"> <span>Guía <br> de registro</span></div>                                        
@@ -1085,7 +1085,7 @@
                                     </div>
                                 </div>
     
-                                <div class="row align-items-center">
+                                <div class="row align-items-center mx-0">
                                     
                                     <div class="col-12 col-md-4">
                                         <div class="text-date">14 de agosto</div>
@@ -1127,75 +1127,81 @@
                             </p>
                             <hr class="line-descarga">
                             <div id="collapseDescargar">
-                                <div class="row justify-content-center mx-0">
+                                <div class="row justify-content-center mx-0 mb-3">
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">12 de agosto</div>
-                                        <div class=" btn-download"><img src="img/icono-cartel.png" alt="Cartel" width="35px"> <span>Cartel</span> </div>
-                                        
-                                        <a id="descarga-kit-cartel" class="btn btn-descargar" href="kit-69/cartel_g69.zip" download="PL-SEP_Convo2024-G69-cartel.zip" onclick="conteo(1,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga cartel"></a>
+                                        <a id="descarga-kit-cartel" href="kit-69/cartel_g69.zip" download="PL-SEP_Convo2024-G69-cartel.zip" onclick="conteo(1,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-cartel.png" alt="Cartel" width="35px"> <span>Cartel</span> </div>
+                                        </a>
                                         
                                     </div>
                                     
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">14 de agosto</div>
-                                        <div class="btn-download"><img src="img/icono-guia.png" alt="guia de registro" width="30px"> <span>Guía de <br>registro</span></div>
-                                        
-                                        <a id="descarga-kit-guia" class="btn btn-descargar" href="kit-69/guia_de_registro_g69.pdf" download="PL-SEP_Convo2024-G69-guia_de_registro.pdf" onclick="conteo(2,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga guia de reguistro"></a>
+                                        <a id="descarga-kit-guia"  href="kit-69/guia_de_registro_g69.pdf" download="PL-SEP_Convo2024-G69-guia_de_registro.pdf" onclick="conteo(2,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-guia.png" alt="guia de registro" width="30px"> <span>Guía de <br>registro</span></div>
+                                        </a>
                                     </div>
     
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">12 de agosto</div>
-                                        <div class=" btn-download"><img src="img/icono-infografia.png" alt="infografía" width="33px"> <span>Infografía</span> </div>
-                                        
-                                        <a id="descarga-kit-infografia" class="btn btn-descargar" href="kit-69/infografia_g69.png" download="PL-SEP_Convo2024-G69-infografia.png" onclick="conteo(3,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga infografía"></a>
+                                        <a id="descarga-kit-infografia"  href="kit-69/infografia_g69.png" download="PL-SEP_Convo2024-G69-infografia.png" onclick="conteo(3,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-infografia.png" alt="infografía" width="33px"> <span>Infografía</span> </div>
+                                        </a>
                                     </div>
     
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">12 de agosto</div>
-                                        <div class=" btn-download"><img src="img/icono-redes.png" alt="rrss" width="30px"> <span>Portadas <br>Redes</span> </div>
-                                        
-                                        <a id="descarga-kit-redes" class="btn btn-descargar" href="kit-69/Portadas RRSS_69.zip" download="PL-SEP_Convo2024-G69-portadas-rrss.zip" onclick="conteo(4,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga portadas redes"></a>
+                                        <a id="descarga-kit-redes" href="kit-69/Portadas RRSS_69.zip" download="PL-SEP_Convo2024-G69-portadas-rrss.zip" onclick="conteo(4,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-redes.png" alt="rrss" width="30px"> <span>Portadas <br>Redes</span> </div>
+                                        </a>
                                     </div>
                                 </div>
     
-                                <div class="row ">
+                                <div class="row mx-0 mb-3">
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">13 de agosto</div>
-                                        <div class=" btn-download"><img src="img/icono-bases.png" alt="bases" width="30px"> <span>Bases</span> </div>
-                                        
-                                        <a id="descarga-kit-bases" class="btn btn-descargar" href="kit-69/bases_g69.pdf" download="PL-SEP_Convo2024-G69-bases.pdf" onclick="conteo(5,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga bases"></a> 
+                                        <a id="descarga-kit-bases" href="kit-69/bases_g69.pdf" download="PL-SEP_Convo2024-G69-bases.pdf" onclick="conteo(5,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-bases.png" alt="bases" width="30px"> <span>Bases</span> </div>
+                                        </a> 
                                     </div>
                                     
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">12 de agosto</div>
-                                        <div class="btn-download"><img src="img/icono-correo.png" alt="correo" width="38px"> <span>Correo</span></div>
-                                        
-                                        <a id="descarga-kit-correo" class="btn btn-descargar" href="kit-69/mail_g69.zip" download="PL-SEP_Convo2024-G69-mail.zip" onclick="conteo(6,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga mail"></a>
+                                        <a id="descarga-kit-correo" href="kit-69/mail_g69.zip" download="PL-SEP_Convo2024-G69-mail.zip" onclick="conteo(6,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-correo.png" alt="correo" width="38px"> <span>Correo</span></div>
+                                        </a>
                                     </div>
     
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">14 de agosto</div>
-                                        <div class=" btn-download"><img src="img/icono-audio.png" alt="audio" width="30px"> <span>Audio</span> </div>
-                                        
-                                        <a id="descarga-kit-audio" class="btn btn-descargar" href="kit-69/audio_g69.wav" download="PL-SEP_Convo2024-G69-audio.wav" onclick="conteo(7,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga audio"></a>
+                                        <a id="descarga-kit-audio" href="kit-69/audio_g69.wav" download="PL-SEP_Convo2024-G69-audio.wav" onclick="conteo(7,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-audio.png" alt="audio" width="30px"> <span>Audio</span> </div>
+                                        </a>
                                     </div>
     
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">14 de agosto</div>
-                                        <div class=" btn-download"><img src="img/icono-video.png" alt="video" width="30px"> <span>Video</span> </div>
-                                        
-                                        <a id="descarga-kit-video" class="btn btn-descargar" href="kit-69/video-spot_rrss.mp4" download="PL-SEP_Convo2024-G69-video-spot.mp4" onclick="conteo(8,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga video"></a>
+                                        <a id="descarga-kit-video" href="kit-69/video-spot_rrss.mp4" download="PL-SEP_Convo2024-G69-video-spot.mp4" onclick="conteo(8,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-video.png" alt="video" width="30px"> <span>Video</span> </div>
+                                        </a>
                                     </div>
+                                   
+                                </div>
+
+                                <div class="row mx-0 mb-2">
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">14 de agosto</div>
-                                        <div class=" btn-download"><img src="img/icono-banner.png" alt="Banners web" width="30px"> <span><i>Banners</i></span> </div>
-                                        <a id="descarga-kit-banners" class="btn btn-descargar" href="kit-69/banners-web_g69.zip" download="PL-SEP_Convo2024-G69-banners-web.zip" onclick="conteo(9,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga banners"></a>
+                                        <a id="descarga-kit-banners" href="kit-69/banners-web_g69.zip" download="PL-SEP_Convo2024-G69-banners-web.zip" onclick="conteo(9,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-banner.png" alt="Banners web" width="30px"> <span><i>Banners</i></span> </div>
+                                        </a>
                                     </div>
     
                                     <div class="col-12 col-md-3">
                                         <div class="text-date">14 de agosto</div>
-                                        <div class=" btn-download"><img src="img/icono-copys.png" alt="copys" width="30px"> <span><i>Copys</i></span> </div>
-                                        <a id="descarga-kit-copys" class="btn btn-descargar" href="kit-69/copys_generacion_69.docx" download="PL-SEP_Convo2024-G69-copys.docx" onclick="conteo(10,'includes/guarda_conteo.php')"><img src="img/icono-descargar-s2.png" alt="descarga copys"></a>
+                                        <a id="descarga-kit-copys" href="kit-69/copys_generacion_69.docx" download="PL-SEP_Convo2024-G69-copys.docx" onclick="conteo(10,'includes/guarda_conteo.php')">
+                                            <div class="btn btn-download"><img src="img/icono-copys.png" alt="copys" width="30px"> <span><i>Copys</i></span> </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

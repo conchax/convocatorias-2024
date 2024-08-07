@@ -1282,6 +1282,7 @@ img.btn-medios {
 }
 .border-media{
   border: 1px solid #D9D9D9;
+  padding: 20px 0;
 }
 .line-compartir{
   width: 90%;
@@ -1350,13 +1351,13 @@ img.btn-medios {
   text-align: left;
 }
 .one .btn-download{
-  border: 1px solid #D9D9D9;
+  border: 2px solid #0074CA;
   border-radius: 1px;
   color: #FF9E1F;
   font-size: 16px;
   font-weight: 400;
   padding: 10px 15px;
-  width: 100%;
+  width: 210px;
   line-height: 18px;
   text-align: center;
 }
@@ -1376,13 +1377,13 @@ div#collapseCompartir span.compartir-rs img {
 
 
 .two .btn-download{
-  border: 1px solid #D9D9D9;
+  border: 2px solid #0074CA;
   border-radius: 1px;
   color: #FF3D9D;
   font-size: 16px;
   font-weight: 400;
   padding: 10px 15px;
-  width: 100%;
+  width: 210px;
   line-height: 18px;
   text-align: center;
   height: 60px;
@@ -1394,13 +1395,13 @@ div#collapseCompartir span.compartir-rs img {
   text-align: left;
 }
 .three .btn-download{
-  border: 1px solid #D9D9D9;
+  border: 2px solid #0074CA;
   border-radius: 1px;
   color: #00AC3D;
   font-size: 16px;
   font-weight: 400;
   padding: 10px 15px;
-  width: 100%;
+  width: 210px;
   line-height: 18px;
   text-align: center;
 }
@@ -1410,6 +1411,13 @@ div#collapseCompartir span.compartir-rs img {
   vertical-align: middle;
   text-align: left;
 }
+.one .btn-download:hover, .two .btn-download:hover, .three .btn-download:hover{
+  scale: 0.95;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  border: 1px solid #0074CA;
+}
+
 .txt-spot{
   font-size: 30px;
   font-weight: 700;
